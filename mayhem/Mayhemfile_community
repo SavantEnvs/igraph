@@ -1,0 +1,6 @@
+project: savantenvs/igraph
+target: community
+cmds:
+  - cmd: /mayhem/community
+    libfuzzer: true
+    timeout: 10

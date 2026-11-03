@@ -1,0 +1,6 @@
+project: savantenvs/igraph
+target: basic_properties_directed
+cmds:
+  - cmd: /mayhem/basic_properties_directed
+    libfuzzer: true
+    timeout: 10

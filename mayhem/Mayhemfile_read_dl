@@ -1,0 +1,9 @@
+project: savantenvs/igraph
+target: read_dl
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/read_dl/testsuite
+cmds:
+  - cmd: /mayhem/read_dl
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,6 @@
+project: savantenvs/igraph
+target: misc_algos_weighted
+cmds:
+  - cmd: /mayhem/misc_algos_weighted
+    libfuzzer: true
+    timeout: 10

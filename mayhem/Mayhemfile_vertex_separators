@@ -1,0 +1,6 @@
+project: savantenvs/igraph
+target: vertex_separators
+cmds:
+  - cmd: /mayhem/vertex_separators
+    libfuzzer: true
+    timeout: 10

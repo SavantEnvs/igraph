@@ -1,0 +1,6 @@
+project: savantenvs/igraph
+target: weighted_centrality
+cmds:
+  - cmd: /mayhem/weighted_centrality
+    libfuzzer: true
+    timeout: 10

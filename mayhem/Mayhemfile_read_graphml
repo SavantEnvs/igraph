@@ -1,0 +1,10 @@
+project: savantenvs/igraph
+target: read_graphml
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/read_graphml/testsuite
+cmds:
+  - cmd: /mayhem/read_graphml
+    libfuzzer: true
+    timeout: 10
+    dictionary: /mayhem/mayhem/read_graphml/read_graphml.dict
