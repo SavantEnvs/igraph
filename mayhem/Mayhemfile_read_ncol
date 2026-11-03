@@ -1,0 +1,9 @@
+project: savantenvs/igraph
+target: read_ncol
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/read_ncol/testsuite
+cmds:
+  - cmd: /mayhem/read_ncol
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,6 @@
+project: savantenvs/igraph
+target: linear_algos_undirected
+cmds:
+  - cmd: /mayhem/linear_algos_undirected
+    libfuzzer: true
+    timeout: 10

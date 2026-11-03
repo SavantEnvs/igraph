@@ -1,0 +1,6 @@
+project: savantenvs/igraph
+target: spatial
+cmds:
+  - cmd: /mayhem/spatial
+    libfuzzer: true
+    timeout: 10

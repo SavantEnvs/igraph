@@ -1,0 +1,6 @@
+project: savantenvs/igraph
+target: edge_connectivity
+cmds:
+  - cmd: /mayhem/edge_connectivity
+    libfuzzer: true
+    timeout: 10

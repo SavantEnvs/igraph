@@ -1,0 +1,6 @@
+project: savantenvs/igraph
+target: bliss
+cmds:
+  - cmd: /mayhem/bliss
+    libfuzzer: true
+    timeout: 10

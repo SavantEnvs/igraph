@@ -1,0 +1,6 @@
+project: savantenvs/igraph
+target: vertex_connectivity
+cmds:
+  - cmd: /mayhem/vertex_connectivity
+    libfuzzer: true
+    timeout: 10

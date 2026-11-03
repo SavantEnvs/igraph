@@ -1,0 +1,6 @@
+project: savantenvs/igraph
+target: centrality
+cmds:
+  - cmd: /mayhem/centrality
+    libfuzzer: true
+    timeout: 10

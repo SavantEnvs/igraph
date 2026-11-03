@@ -1,0 +1,10 @@
+project: savantenvs/igraph
+target: write_all_gml
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/write_all_gml/testsuite
+cmds:
+  - cmd: /mayhem/write_all_gml
+    libfuzzer: true
+    timeout: 10
+    dictionary: /mayhem/mayhem/write_all_gml/write_all_gml.dict
